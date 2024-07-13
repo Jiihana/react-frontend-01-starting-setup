@@ -7,8 +7,8 @@ import NewPlace from "./Places/Pages/NewPlace";
 import User from "./User/User";
 import MainNavigation from "./Shared/Components/Navigation/MainNavigation/MainNavigation";
 import UserPlaces from "./Places/Pages/UserPlaces/UserPlaces";
-import PlaceClass from "./Places/PlaceClass";
-import CoordinateClass from "./Places/CoordinateClass";
+import PlaceClass from "./Places/PlaceClass.js";
+import CoordinateClass from "./Places/CoordinateClass.js";
 
 const App = () => {
   const users = [
