@@ -72,16 +72,11 @@ const App = () => {
             <NewPlace />
           </Route>
 
-          {users.map((user) => (
-            <Route
-              path={`/${user.id}/places`}
-              exact>
-              <UserPlaces
-                places={places}
-                creatorId={user.id}
-              />
-            </Route>
-          ))}
+          <Route
+            path='/:userId/places'
+            exact>
+            <UserPlaces places={places} />
+          </Route>
         </Switch>
       </main>
     </Router>
