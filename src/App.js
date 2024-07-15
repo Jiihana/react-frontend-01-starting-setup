@@ -34,7 +34,7 @@ const App = () => {
       "Chez Eve",
       "1130 avenue des platanes",
       users[0].id,
-      new CoordinateClass(43.0, 44.0)
+      new CoordinateClass(43.0, -44.0)
     ),
     new PlaceClass(
       1,
@@ -43,7 +43,7 @@ const App = () => {
       "Chez Nico",
       "909 leonard de vinci",
       users[1].id,
-      new CoordinateClass(15.0, 563.0)
+      new CoordinateClass(43.5741, 3.9018)
     ),
     new PlaceClass(
       2,
@@ -52,7 +52,7 @@ const App = () => {
       "Chez Nico et Eve",
       "Quelque part en France",
       users[0].id,
-      new CoordinateClass(55.0, 23.0)
+      new CoordinateClass(-55.0, 23.0)
     )
   ];
 

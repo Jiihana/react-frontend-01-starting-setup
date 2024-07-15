@@ -1,7 +1,7 @@
 class CoordinateClass {
-  constructor(latitude, longitude) {
-    this.latitude = latitude;
-    this.longitude = longitude;
+  constructor(lat, lng) {
+    this.lat = lat;
+    this.lng = lng;
   }
 }
 
